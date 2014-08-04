@@ -1,0 +1,30 @@
+{
+  "name": "compact-source-mappings",
+  "version": "0.0.0",
+  "description": "Compact redundant source mappings",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/smrq/compact-source-mappings"
+  },
+  "keywords": [
+    "sourcemap",
+    "source",
+    "map"
+  ],
+  "author": "Greg Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smrq/compact-source-mappings/issues"
+  },
+  "homepage": "https://github.com/smrq/compact-source-mappings",
+  "dependencies": {
+    "source-map": "^0.1.38"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4"
+  }
+}

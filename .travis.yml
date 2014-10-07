@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
+deploy:
+  provider: npm
+  email: smr.kyu@gmail.com
+  api_key:
+    secure: ufdxg6ddpoQgswxWgnXd0nE4apytcZxNJe+QDYILN2b5b4+5jnGMmDfdNmidiXyErF/H3kL0+f7QM3a92pICRRO0ltGQk4T1pbU6Shrr7pEwVShNWCMAa2pDzhTWo8kWxsatfldyC2tJs6FiLpaOnYELYVS/eq5lAxbQQdxmYxM=
+  on:
+    tags: true
+    repo: smrq/compact-source-mappings
+    branch: master

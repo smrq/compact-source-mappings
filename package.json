@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/smrq/compact-source-mappings",
   "dependencies": {
-    "source-map": "^0.1.38"
+    "source-map": "^0.1.40"
   },
   "devDependencies": {
-    "tape": "^2.13.4"
+    "tape": "^3.0.0"
   }
 }

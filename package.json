@@ -4,7 +4,8 @@
   "description": "Compact redundant source mappings",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "coverage": "covert test.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "source-map": "^0.1.40"
   },
   "devDependencies": {
+    "covert": "^1.0.0",
     "tape": "^3.0.0"
   }
 }

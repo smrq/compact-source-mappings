@@ -24,11 +24,9 @@ test('test', function (t) {
 	expectedGen.addMapping({ generated: { line: 3, column: 0 }, source: 'original.js', original: { line: 2, column: 0 }});
 	expectedGen.addMapping({ generated: { line: 4, column: 0 }, source: 'original.js', original: { line: 4, column: 0 }});
 	expectedGen.addMapping({ generated: { line: 4, column: 0 }, source: 'original2.js', original: { line: 4, column: 0 }});
+		
+	t.deepEqual(compact(inputGen.toJSON()), expectedGen.toJSON());
+	t.deepEqual(compact(inputGen.toString()), expectedGen.toJSON());
 
-	var inputMap = inputGen.toJSON();
-	var expectedMap = expectedGen.toJSON();
-	var outputMap = compact(inputMap);
-
-	t.deepEqual(outputMap, expectedMap);
 	t.end();
 });
